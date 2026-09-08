@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor & Arte | Experiencia Gastronómica</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo animate-on-scroll">Sabor<span>&</span>Arte</a>
+            <ul class="nav-links">
+                <li><a href="#inicio" class="animate-on-scroll">Inicio</a></li>
+                <li><a href="#menu" class="animate-on-scroll">Menú</a></li>
+                <li><a href="#historia" class="animate-on-scroll">Filosofía</a></li>
+                <li><a href="#contacto" class="animate-on-scroll">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Inicio / Hero -->
+        <section id="inicio" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <span class="sub-title animate-on-scroll">Alta Cocina de Autor</span>
+                <h1 class="animate-on-scroll">Donde cada plato cuenta una historia</h1>
+                <p class="animate-on-scroll">Descubre una propuesta culinaria que despierta los sentidos, combinando técnicas vanguardistas con ingredientes locales de temporada.</p>
+                <div class="hero-buttons animate-on-scroll">
+                    <a href="#menu" class="btn btn-primary">Ver Menú</a>
+                    <a href="#contacto" class="btn btn-outline">Ubicación</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Menú -->
+        <section id="menu" class="menu section container">
+            <div class="section-header">
+                <span class="sub-title animate-on-scroll">Selección Exclusiva</span>
+                <h2 class="animate-on-scroll">Nuestro Menú Destacado</h2>
+                <div class="divider animate-on-scroll"></div>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Ítem 1 -->
+                <div class="menu-card animate-on-scroll">
+                    <div class="menu-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Plato Principal">
+                        <span class="menu-tag">Especialidad</span>
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-price">
+                            <h3>Solomillo al Vino Tinto</h3>
+                            <span class="price">$38.00</span>
+                        </div>
+                        <p>Acompañado de reducción de frutos rojos, puré trufado y vegetales crujientes de la huerta.</p>
+                    </div>
+                </div>
+
+                <!-- Ítem 2 -->
+                <div class="menu-card animate-on-scroll">
+                    <div class="menu-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" alt="Entrada Gourmet">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-price">
+                            <h3>Risotto de setas silvestres</h3>
+                            <span class="price">$26.00</span>
+                        </div>
+                        <p>Arroz arborio cremoso cocinado a fuego lento con hongos porcini, parmesano estacionado y aceite de trufa blanca.</p>
+                    </div>
+                </div>
+
+                <!-- Ítem 3 -->
+                <div class="menu-card animate-on-scroll">
+                    <div class="menu-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" alt="Pescado Fresco">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-price">
+                            <h3>Salmón en Costra de Hierbas</h3>
+                            <span class="price">$34.00</span>
+                        </div>
+                        <p>Lomo de salmón fresco sobre cama de espárragos salteados y emulsión de cítricos.</p>
+                    </div>
+                </div>
+
+                <!-- Ítem 4 -->
+                <div class="menu-card animate-on-scroll">
+                    <div class="menu-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80" alt="Postre">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-price">
+                            <h3>Esfera de Chocolate Oculto</h3>
+                            <span class="price">$14.00</span>
+                        </div>
+                        <p>Mousse de chocolate belga fundido con infusión de frutos rojos y crujiente de almendras tostadas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Historia / Filosofía -->
+        <section id="historia" class="story section">
+            <div class="container story-grid">
+                <div class="story-text">
+                    <span class="sub-title animate-on-scroll">Nuestra Esencia</span>
+                    <h2 class="animate-on-scroll">Pasión por la excelencia culinaria</h2>
+                    <p class="animate-on-scroll">Fundado bajo la premisa de transformar ingredientes simples en obras maestras, Sabor & Arte ofrece un ambiente sofisticado y acogedor. Cada receta ha sido diseñada meticulosamente por nuestro chef ejecutivo para honrar los sabores tradicionales mediante técnicas modernas.</p>
+                    <ul class="story-list">
+                        <li class="animate-on-scroll"><i class="fa-solid fa-check"></i> Ingredientes 100% locales y orgánicos</li>
+                        <li class="animate-on-scroll"><i class="fa-solid fa-check"></i> Selección exclusiva de vinos internacionales</li>
+                        <li class="animate-on-scroll"><i class="fa-solid fa-check"></i> Ambiente íntimo y música ambiental curada</li>
+                    </ul>
+                </div>
+                <div class="story-image animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="Interior del restaurante">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto / Ubicación Genérica -->
+        <section id="contacto" class="contact section container">
+            <div class="section-header">
+                <span class="sub-title animate-on-scroll">Visítanos</span>
+                <h2 class="animate-on-scroll">Horarios y Ubicación</h2>
+                <div class="divider animate-on-scroll"></div>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card animate-on-scroll">
+                    <i class="fa-solid fa-clock"></i>
+                    <h3>Horarios de Atención</h3>
+                    <p>Martes a Jueves: 1:00 PM – 10:00 PM</p>
+                    <p>Viernes y Sábados: 1:00 PM – 11:30 PM</p>
+                    <p>Domingos: 1:00 PM – 6:00 PM</p>
+                </div>
+                <div class="contact-card animate-on-scroll">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Ubicación</h3>
+                    <p>Calle Principal #45-67</p>
+                    <p>Distrito Gastronómico, Ciudad</p>
+                </div>
+                <div class="contact-card animate-on-scroll">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Contacto Directo</h3>
+                    <p>Tel: +57 (300) 123-4569</p>
+                    <p>Email: reservas@saboryarte.demo</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página con diseño neutro y desplazamiento dinámico -->
+    <footer class="footer">
+        <div class="footer-parallax-bg"></div>
+        <div class="container footer-content">
+            <div class="footer-col animate-on-scroll">
+                <h3>Sabor<span>&</span>Arte</h3>
+                <p>Una experiencia diseñada para elevar tus sentidos a través de la alta cocina.</p>
+            </div>
+            <div class="footer-col animate-on-scroll">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#historia">Filosofía</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col animate-on-scroll">
+                <h4>Redes Sociales</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-tripadvisor"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sabor & Arte. Todos los derechos reservados. Plantilla Demo.</p>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/573001234569?text=Hola,%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20restaurante." 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Contacto por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Script para animaciones independientes al hacer scroll -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.15
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        // Dejar de observar si se desea que la animación ocurra una sola vez
+                        // observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            const animatedElements = document.querySelectorAll('.animate-on-scroll');
+            animatedElements.forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>
